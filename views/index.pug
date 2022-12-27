@@ -3,7 +3,7 @@ extends layout
 block content
   h1= title
   p Welcome to the #{title}
-
+  a(href='/new') Add post
   ul
   each val in messages
     li= val.user + ": " + val.text + " " + "Posted on: " + val.added
