@@ -9,7 +9,8 @@
     "serverstart": "DEBUG=express-locallibrary-tutorial:* npm run devstart"
   },
   "engines": {
-    "node": "18.10.0"
+    "node": "18.10.0",
+    "npm": "8.19.2"
   },
   "repository": {
     "type": "git",
